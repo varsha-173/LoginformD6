@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('SC3-LWG.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family:'Times New Roman', Times, serif, Arial, sans-serif;
+    }
+    .login-box {
+      width: 300px;
+      padding: 40px;
+      background: rgba(253,245,256, 0.3);
+      color:balck;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align:left;
+    }
+    .login-box h2 {
+      margin: 20px 0 30px;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      outline: none;
+    }
+    .login-box input[type="checkbox"] {
+      margin-right: 5px;
+      position:left;
+    }
+    .login-box a {
+      color: black;
+    }
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background:rgb(80, 103, 80);
+      border: none;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow:2px 2px 2px grey;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h2>LOGIN WINDOW</h2>
+    <input type="text" placeholder="Your Email Address"><br>
+    <input type="password" placeholder="Your Password"><br>
+    <label><input type="checkbox"> Agree With <a href="#">Terms & Condition</a></label><br><br>
+    <button>Login</button>
+  </div>
+</body>
+</html>
